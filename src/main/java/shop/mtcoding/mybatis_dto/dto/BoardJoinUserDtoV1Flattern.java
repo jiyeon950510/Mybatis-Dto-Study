@@ -9,7 +9,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString // 테스트 해보려고 붙임! dto 에는 막 붙여도 됨
-public class BoardDetailOutDto { // db 에서 조회할 데이터들
+public class BoardJoinUserDtoV1Flattern { // db 에서 조회할 데이터들
     private Integer id;
     private String title;
     private String content;

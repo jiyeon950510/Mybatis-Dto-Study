@@ -4,8 +4,6 @@ import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
 
-import shop.mtcoding.mybatis_dto.dto.BoardJoinUserDto;
-
 @Mapper
 public interface UserRepository {
     public int insert(User user);
